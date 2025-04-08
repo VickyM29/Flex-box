@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    border: black 5px solid;
+    border-radius: 6%;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: deepskyblue;
+    border: white 3px solid;
+    margin: 10px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 8%;
+}
+.centralizar{
+    justify-content: center;
+    align-items: center;
+}
+h1, h2{
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
